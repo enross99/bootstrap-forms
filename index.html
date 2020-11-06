@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Bootstrap Form </title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col col-lg-8">
+
+          <h1>Final Fantasy XV Quiz</h1>
+          How much do you know about the Square Enix game Final Fantasy XV? Take this quiz to test your knowledge! You can discover all answers in <a href="https://en.wikipedia.org/wiki/Final_Fantasy_XV">this Wikipedia page</a>.
+
+
+        <form>
+          <div class="form-group">
+            <label class="d-block">Q1. Who is the main protagonist of FFXV?</label>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="character" value="prompto">Prompto</label></div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="character" value="noctis">Noctis</label></div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="character" value="lunafreya">Lunafreya</label></div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="character" value="gladiolus">Gladiolus</label></div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="character" value="ignis">Ignis</label>
+            </div> <!-- form-check -->
+          </div> <!-- form-group -->
+
+
+          <div class="form-group">
+            <label class="form-control-label" for="question2">Q2. What is the name of the world where FFXV takes place?</label>
+              <input class="form-control" type="text" name="question2" id="question2">
+          </div> <!-- form-group -->
+
+          <div class="form-group">
+            <label  class="form-control-label" for="question3">Q3. What are the 6 divine beings known as?</label>
+              <input class="form-control" type="text" name="question3" id="question3">
+          </div> <!-- form-group -->
+
+          <div class="form-group">
+            <label class="form-control-label">Q4. Who is Noctis's father?</label>
+              <select name="father" id="father">
+                <option value="Cid">Cid</option>
+                <option value="Regis">Regis</option>
+                <option value="Ravus">Ravus</option>
+                <option value="Cor">Cor</option>
+                <option value="Ardyn">Ardyn</option>
+                <option value="Iedolas">Iedolas</option>
+              </select>
+          </div> <!-- form-group -->
+
+          <div class="form-group">
+            <label>Q5. What are the Royal Arms and why does Noctis need them?</label>
+              <textarea class="form-control" name="royalarms" id="question5" rows="5"></textarea>
+          </div> <!-- form-group -->
+
+
+          <div class="form-group">
+            <label class="d-block">Q6. What are the available DLC for the game?</label>
+
+
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="dlc" value="episodeprompto">Episode Prompto</label></div>
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="dlc" value="episodenoctis">Episode Noctis</label></div>
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="dlc" value="episodeignis">Episode Ignis</label></div>
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="dlc" value="episodegladiolus">Episode Gladiolus</label></div>
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="dlc" value="comrades">Comrades</label></div>
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="dlc" value="episodeardyn">Episode Ardyn</label>
+            </div> <!-- form-check -->
+          </div><!-- form-group -->
+
+
+          <input type="submit" value="submit answers">
+          <input type="reset" value="start over">
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
